@@ -1,17 +1,14 @@
 def c_to_f(a):
-    """ Converts temperature in Celcius to Faranhite """
+    """ Converts temperature in Celsius to Fahrenheit. """
     
-    answer = (a * 9/5) + 32
+    f = (a * 9/5) + 32
     
-    return answer
+    return round(f,2)
 
-def f_to_c(b):
-    """ Converts temperature in Farenhite to Celcius """
+def f_to_c(a):
+    """ Converts temperature in Fahrenheit to Celsius. """
     
-    answer = (b- 32) * (5/9)
+    c = (a- 32) * (5/9)
     
-    return answer
+    return round(c,2)
 
-c_to_f(4)
-
-f_to_c(10)
