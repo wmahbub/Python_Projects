@@ -69,7 +69,7 @@ def rectangle_area(a,b):
     
     return round(a,2)
 
-def trapezoid(a,b,h): 
+def trapezoid_area(a,b,h): 
     """ Returns area of a trapezoid, with parallel sides (a) and (b), and height (h). """
     
     a = 0.5 * (a + b) * h
@@ -110,6 +110,34 @@ def lb_to_kg(a):
     """ Converts pounds (lb) to kilograms (kg)."""
     
     kg = a / 2.2046
+    
+    return round(kg, 2)
+
+def lb_to_oz(a):
+    """ Converts pounds (lb) to ounce (oz). """
+    
+    oz= a * 16
+    
+    return round(oz,2)
+
+def kg_to_oz(a):
+    """ Converts kilograms (kg) to ounce (oz)."""
+    
+    oz = a * 35.274
+    
+    return round(oz, 2)
+
+def oz_to_lb(a):
+    """ Converts ounce (oz) to pounds (lb)."""
+    
+    lb = a / 16
+    
+    return round(lb,2)
+
+def oz_to_kg(a):
+    """ Converts ounce (oz) to kilograms (kg)."""
+    
+    kg = a / 35.274
     
     return round(kg, 2)
 
