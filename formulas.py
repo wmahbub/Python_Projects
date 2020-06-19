@@ -1,8 +1,6 @@
 # Libraries
 
 import math
-import random
-
 
 # Temperature Formulas
 
@@ -141,6 +139,79 @@ def oz_to_kg(a):
     
     return round(kg, 2)
 
+def g_to_oz(a):
+    """ Converts grams (g) to ounce (oz)."""
+    
+    oz = a /28.35
+    
+    return round(oz,2)
+
+def oz_to_g(a):
+    """ Converts ounce (oz) to grams (g). """
+    
+    g = a * 28.35
+    
+    return round(g,2)
+
+def g_to_lb(a):
+    """ Converts grams (g) to pounds (lb)."""
+    
+    lb = a / 453.92
+    
+    return round(lb,2)
+
+def lb_to_g(a):
+    """ Converts pounds (lb) to grams (g)."""
+    
+    g = a * 453.592
+    
+    return round(g,2)
+
+def uston_to_kg(a):
+    """ Converts US Ton (ton) to kilograms (kg)."""
+    
+    kg = a * 907.185
+    
+    return round(kg,2)
+
+def kg_to_uston(a):
+    """ Converts kilogram (kg) to US Ton (ton). """
+    
+    ton = a / 907.185
+    
+    return round(ton,2)
+
+def lb_to_uston(a):
+    """ Converts pounds (lb) to US Ton (ton)."""
+    
+    ton = a / 2000
+    
+    return round(ton, 2)
+
+def uston_to_lb(a):
+    """ Converts US Tons (ton) to pounds (lb)."""
+    
+    lb = a * 2000
+    
+    return round(lb, 2)
+
+def uston_to_metton(a):
+    """ Converts US Ton (ton) to Metric Ton (metric ton). """
+    
+    metton = a / 1.10231
+    
+    return round(metton, 2)
+    
+def metton_to_uston(a):
+    """ Converts Metric Ton (metric ton) to US Ton (ton). """
+    
+    uston = a * 1.10231
+    
+    return round(uston, 2)
+    
+
+ 
+    
 
 
 
