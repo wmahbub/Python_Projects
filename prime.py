@@ -68,4 +68,3 @@ def fact_prime(a):
     
     return fact
 
-                
