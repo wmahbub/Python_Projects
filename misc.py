@@ -87,7 +87,7 @@ def is_triangle_num(a):
 def circle_slices(a):
     """ Calculates the maximum number of pieces that can be made from (a) slices. """
     
-    assert a == int
+    #assert a == int
     
     if a >= 0:
         ans = ( (a**2) + a + 2 )/2
@@ -124,7 +124,33 @@ def check_pieces(a):
     else:
         return False
 
-def num_pieces(a):
+def num_slices(a):
     """ Returns the number of slices you would need to generate (a) pieces. """
     
+    d= (8*a) - 7
     
+    if d < 0:
+        return "No real solution can be found"
+    
+    if d == 0:
+        return -1
+    
+    else:
+        m = (-1 + math.sqrt(d) ) / 2
+        # n = (-1 - math.sqrt(d) ) / 2 (produces negative number)
+        f,i = math.modf(m)
+        
+        i =  int(i)
+        
+        if f != 0:
+            lower = circle_slices(i)
+            upper = circle_slices(i+1)
+        
+            msg= "Cannot make " + str(a) + " pieces. You can make " + str(lower) + " pieces with " + str(i) + " slices, or make " + str(upper) + " pieces with " + str(i+1) + " slices."
+
+            return msg
+        
+        else:
+            return i
+
+print(num_slices(14))
