@@ -153,4 +153,23 @@ def num_slices(a):
         else:
             return i
 
-print(num_slices(14))
+def catalan_number(a):
+    """ Returns Catalan number for ath term. """
+    
+    assert a >= 0
+    
+    ans = math.factorial((2*a)) / ( math.factorial(a+1) * math.factorial(a) )
+    
+    return ans
+
+def is_catalan(a):
+    """ Checks to see if a number is Catalan or not."""
+    
+    assert a >= 0
+    
+    for i in range(0,a+1):
+        if catalan_number(i) == a:
+            return True
+    
+    return False
+
