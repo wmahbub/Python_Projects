@@ -1,5 +1,5 @@
 
-from Step1 import Board
+from connect_four_step_one import Board
 
 
 
