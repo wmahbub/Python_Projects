@@ -1,4 +1,4 @@
-a = r'C:\Users\xxxxx\Desktop\Visual Studio Code Projects\paypal.txt'
+a = r'C:\Users\xxxxx\Desktop\Visual Studio Code Projects\technical_product_manager.txt'
 
 
 def second(lst):
@@ -22,10 +22,10 @@ def word_analyzer(filename, company):
     exclude= ['from', 'with', 'that', "it's", 'will', 'them', 'they', 'these', 'while', 'about', 'your', 
               'please', 'through', 'enable', 'enables', 'ways', 'have', 'ability', 'multiple', 'skills', 'some', 'many',
               'name', 'more', 'than', 'move', 'work', 'thrive', 'please', 'using', 'first', 'last', 'million', 'billion',
-              'world', 'name', 'please', 'around', 'us', 'strong', firm]
+              'world', 'name', 'please', 'around', 'us', 'strong', 'ensure', firm]
     
     for w in words:
-        if len(w.strip())>3: #and w not in exclude:
+        if len(w.strip())>3:
             if w[-1] in '!@#$%^&*()-_=+[]{}:;,.<>?/|\•1234567890" ':
                 lst.append(w[ :-1].lower())
             
@@ -56,10 +56,8 @@ def word_analyzer(filename, company):
     
     s.sort(key=second, reverse= True)
     
-    #return s
-    
-    for a in s:
-        print(a[0],':', a[1])
+    for i in range(16):
+        print(s[i][0],':', s[i][1])
 
 word_analyzer(a, 'paypal')
 
