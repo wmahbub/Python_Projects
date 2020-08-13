@@ -1,0 +1,32 @@
+Job Description Summary
+
+We are reinventing Customer Service at PayPal to help make our services effortless, accessible and essential for today’s customers and to fuel our goal of serving billions of people around the globe. We are creating effortless experiences by being a customer champion in everything we build and deliver to attract, empower, enable and engage people on our platform. We are daring to innovate and committed to partnering across the company to shift from transactional to relational service and to deliver our services consistently with quality and care because we value each customer as if they were our only customer.
+We are seeking a Product Manager who is passionate about solving customer problems and creating experiences that are elegant and effective. You will own, drive and create world-class customer experiences throughout the lifecycle. With the ability to cut through the noise and focus on what really matters, you will serve as a product owner within an agile scrum team to prioritize the backlog and work on the most impactful features. You are customer-centric, continuously demonstrate strategic & analytical abilities, and are laser focused on executing at scale. In this role, you will partner with diverse cross-functional teams to lead, execute, monitor, and deliver results for Customer Service. You must have the ability to succeed in a matrix environment, where success is dependent on your ability to collaborate with cross-functional partners in a positive, productive, and transparent way.
+
+Responsibilities
+
+Job Description:
+Understand PayPal’s strategic and competitive position to deliver products that are recognized best in class
+Drive product development to build end to end solutions with a team of world-class engineers and designers.
+Serve as a product owner within an agile scrum team, write user stories, prioritize the product backlog, and work closely with engineers on the team
+Create a deep understanding of our Customers. Analyze current customer experiences to define friction points and create seamless and effortless experiences
+Develop a product roadmap and work with cross-functional teams (business, program managers, product, development, UX, analytics) to execute on the roadmap
+Work with Analytics partners to evaluate launch outcomes and ongoing platform performance to help build best in class experiences.
+Define detailed product requirements and use rapid cycles to iterate and learn
+Build trust and effective relationships with peers/cross-functional teams and provide leadership across the product, engineering and business teams.
+
+Minimum Qualifications
+Bachelor's degree in Computer Science or equivalent practical experience
+4 years of Product Management experience with a focus on Knowledge Management, and Content Management with a focus on building Enterprise Content Management platforms and technologies
+Strong ability to translate product needs to technology and understand technology. Detail-oriented, unfazed by technical detail, committed to flawless execution
+Ability to participate in technical discussions and help make technical trade-offs
+Excellent verbal and written communication skills. Team player; ability to interface and build relations at all levels
+
+Preferred Qualifications
+Certified Agile Product Owner or scrum training
+Experience developing customer facing products, technologies and platforms
+Entrepreneurial drive and demonstrated ability to achieve stretch goals in an innovative and fast-paced environment
+Strong technical leadership, project management, analytical problem solving, and troubleshooting skills
+Ability to collaborate, build consensus, deliver, and drive technical decisions with various sized customer stakeholder groups
+BA/BS
+Demonstrated knowledge of SQL/MySQL

@@ -1,0 +1,28 @@
+Job Description
+
+The core charter of Sales Data Services is to build best-in-class data solutions to help bring value to the Sales business. We are looking for an individual who is eager to explore new data, while at the same time is proficient enough in the existing data to support business stakeholders looking to leverage it in their last-mile solutions.
+
+The role will involve understanding business requirements and the ability to translate & implement solutions in a scalable and consistent way using appropriate tools. It will include hands-on program management, including building project plans, timelines, deliverables, and then driving teams to align and deliver on time and with high quality.
+
+The role will be responsible for supporting global stakeholder departments, working domain leads, and data citizens across different geos such as Americas, EMEA, and the Asia Pacific. Because the position requires interaction with geographically disbursed teams, the candidate must be a self-starter with strong leadership qualities, project/task management skills, analytical skills, and be comfortable working with distributed teams.
+
+Responsibilities
+Champion and create buy-in for Sales Data Services vision, internally and with key partners. Ensure data vision and requirements are defined globally, with long-term and scalability in mind.
+Partner closely with other Product Managers, Product Engineering Teams and PMOs to understand new credit product offerings being built, and work with cross-functional teams to ensure proper integration of data components.
+Maintain data product backlog, drive product roadmap and own prioritization process of Sales data product solutions based on business value and customer impact.
+Break down Data Platform requirements to Epics, Features and User Stories for engineers and analysts to successfully deliver features and capabilities.
+Ensure the success of the team’s scrum process as a product owner, owning the grooming and agile ceremonies.
+Gain expertise in how data flows throughout the business and proactively engage with product/engineering teams to ensure proper data instrumentation.
+Communicate and educate the team and other business stakeholders on new data products, platform launches and feature releases.
+Lead QA/UAT process to ensure data solutions meet business requirements.
+Document best practices for data tracking, and maintain documentation for self-service use
+Communicate product/program status, metrics, goals and performance clearly to stakeholders throughout the organization, including impacted teams (internal and external) across geographic locations.
+Define data product scope, capabilities and KPI’s for the team.
+Develop an understanding of PayPal’s products, data and applications and the use of data for business decisions in order to collaborate with engineers and analyst to provide analytical thought leadership.
+Create data strategies and programs for the long-term success of business teams and ensure engineering teams are positioned to deliver results.
+Ability to translate business requirements and work with various levels of business stakeholders to create innovative solutions.
+Quantifying the opportunities by continually assessing the needs of the customer, market trends, competitive opportunities and threats.
+Creating and managing global product roadmaps, prioritization, and constraints to ensure consistent execution of the product life-cycle process from concept to launch.
+Articulate a clear strategy that will effectively capture customer attention and business value through efficient presentations.
+Sharp business judgment, ability to see "big picture" and to prioritize.
+Ability to drive collaboration & resolve the conflict between diverse stakeholder groups.

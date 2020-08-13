@@ -1,0 +1,48 @@
+Who We Are
+
+Fueled by a fundamental belief that having access to financial services creates opportunity, PayPal (NASDAQ: PYPL) is committed to democratizing financial services and empowering people and businesses to join and thrive in the global economy. Our open digital payments platform gives PayPal’s 305 million active account holders the confidence to connect and transact in new and powerful ways, whether they are online, on a mobile device, in an app, or in person. Through a combination of technological innovation and strategic partnerships, PayPal creates better ways to manage and move money, and offers choice and flexibility when sending payments, paying or getting paid. Available in more than 200 markets around the world, the PayPal platform, including Braintree, Venmo and Xoom, enables consumers and merchants to receive money in more than 100 currencies, withdraw funds in 56 currencies and hold balances in their PayPal accounts in 25 currencies.
+
+When applying for a job you are required to create an account, if you have already created an account - click Sign In.
+
+Requirements
+
+Our system does have some requirements that will help us process your application, below are some guidelines for creation of your account
+
+Creating an account will allow you to follow the progress of your applications.
+• Provide full legal First Name/Family Name – this is important for us to ensure our future hires have the right system set up.
+• Please Capitalize first letter of your First and Last Name.
+• Please avoid using fully capitalized text for your First and/or Last Name.
+• NOTE: If your name is hyphenated or has multiple capitalization, please use the same format as your government ID.
+
+Job Description Summary
+
+At PayPal, we’re literally reinventing how the world pays and gets paid. We understand that it’s about people. We connect individuals to let them shop, get paid, donate and send money using today’s technology with the confidence that comes from the security and control PayPal enables. Are you ready to help us change the world?
+
+The world’s leading payments company, PayPal, brings together a family of brands that are revolutionizing the way people move money. At PayPal you will be immersed in an amazing community with a vibrant culture that thrives on innovation, collaboration, inclusion, and wellness.
+
+Job Description
+
+Looking for a career path that combines technical savvy with business perspective? Product Managers at PayPal are data-driven decision makers, building new features and products that touch millions of customers and merchants around the globe. The candidate will perform analysis or mining of data, evangelize the insights drawn from the data analysis and work with developers and designers to define features based on these insights. As a Product Manager, you will be focused on ensuring the aggressive expansion of PayPal’s business, helping to explore key opportunities for growth, creating stellar customer experiences and supporting all aspects of the business while partnering with employees from all backgrounds and organizational leaders.
+
+Key Responsibilities
+• Think strategically and creatively to gather product and customer insights and help define the Product Vision and Strategy
+• Understand PayPal’s strategic and competitive position and deliver products that are recognized as best in class
+• Analyze current customer experiences to define friction points and create seamless and effortless experiences
+• Develop product roadmaps and work with cross-functional teams (business, program managers, product, development, UX, analytics)
+• Define detailed product requirements, scope, ship, measure features and use rapid cycles to iterate and learn
+• Drive product development by building end to end solutions with a team of world-class engineers and designers
+• Build trust and effective relationships with peers/cross-functional teams
+
+Basic Requirements
+• Graduated within past 12 months, or will be graduating by Spring 2021, with a Bachelor’s or Master’s degree in Computer Science, Business or related field from an accredited college or university
+• Strong analytical and data visualization skills
+• Knowledge of data analytics and statistics (using SQL, R, Hive, etc.)
+• Ability to juggle multiple priorities and thrive in fast-paced environments
+• Strong problem-solving abilities - you can cut through the noise and laser focus on what really matters
+• Experience working with internet technologies or the payments industry is desirable
+• Experience with qualitative and quantitative methodologies to understand customers and an ability to explore and structure customers’ insights
+• Strong ability to translate product needs to technology and to understand technology
+• Ability to write scripts or snippets of code preferred
+• Excellent verbal and written communication skills
+• Team player with ability to interface and build relations at all levels
+Position Location: Varies

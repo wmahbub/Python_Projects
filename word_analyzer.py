@@ -1,13 +1,11 @@
-a = r'C:\Users\xxxxx\Desktop\Visual Studio Code Projects\technical_product_manager.txt'
-
 
 def second(lst):
     return lst[1]
 
 
-def word_analyzer(filename, company):
+def word_analyzer(filename, *company):
     
-    firm = company.lower()
+    firm = str(*company).lower()
 
     file = open(filename, 'r', encoding='utf_8')
 
@@ -22,7 +20,7 @@ def word_analyzer(filename, company):
     exclude= ['from', 'with', 'that', "it's", 'will', 'them', 'they', 'these', 'while', 'about', 'your', 
               'please', 'through', 'enable', 'enables', 'ways', 'have', 'ability', 'multiple', 'skills', 'some', 'many',
               'name', 'more', 'than', 'move', 'work', 'thrive', 'please', 'using', 'first', 'last', 'million', 'billion',
-              'world', 'name', 'please', 'around', 'us', 'strong', 'ensure', firm]
+              'world', 'name', 'please', 'around', 'us', 'strong', 'ensure', 'where', 'when', 'want', 'join', 'boston', '201', firm]
     
     for w in words:
         if len(w.strip())>3:
@@ -56,9 +54,47 @@ def word_analyzer(filename, company):
     
     s.sort(key=second, reverse= True)
     
-    for i in range(16):
+    for i in range(15):
         print(s[i][0],':', s[i][1])
 
-word_analyzer(a, 'paypal')
+
+def resume_analyzer(filename, *company):
+    
+    print('-'*25)
+    print('Resume Top 15 Words')
+    print('-'*25)
+
+    word_analyzer(filename, *company)
+    
+    print('-'*25)
 
 
+def cover_letter_analyzer(filename, *company):
+    
+    print('-'*25)
+    print('Cover Letter Top 15 Words')
+    print('-'*25)
+
+    word_analyzer(filename, *company)
+    
+    print('-'*25)
+    
+
+def job_desc_analyzer(filename, *company):
+
+    print('-'*30)
+    print('Job Description Top 15 Words')
+    print('-'*30)
+
+    word_analyzer(filename, *company)
+
+    print('-'*30)
+
+
+
+
+job_desc_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\product_manager_uni_grad.txt', 'paypal')
+
+#cover_letter_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\cover_letter_springboard.txt', 'springboard')
+
+#resume_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\resume_BU.txt')
