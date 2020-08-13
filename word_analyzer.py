@@ -93,8 +93,8 @@ def job_desc_analyzer(filename, *company):
 
 
 
-job_desc_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\product_manager_uni_grad.txt', 'paypal')
+#job_desc_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\product_manager_uni_grad.txt', 'paypal')
 
-#cover_letter_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\cover_letter_springboard.txt', 'springboard')
+#cover_letter_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\cover_letter_springboard.txt', 'springboard')
 
-#resume_analyzer(r'C:\Users\wajda\Documents\GitHub\Python_Projects\Python_Projects\Text\resume_BU.txt')
+#resume_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\resume_BU.txt')
