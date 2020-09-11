@@ -54,7 +54,7 @@ def word_analyzer(filename, *company):
     
     s.sort(key=second, reverse= True)
     
-    for i in range(15):
+    for i in range(9): # this number changes with job descriptions 
         print(s[i][0],':', s[i][1])
 
 
@@ -93,8 +93,13 @@ def job_desc_analyzer(filename, *company):
 
 
 
-#job_desc_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\product_manager_uni_grad.txt', 'paypal')
+text =job_desc_analyzer(r'C:\Users\wajda\Desktop\Visual Studio Code Projects\insurly.txt', 'insurly')
 
 #cover_letter_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\cover_letter_springboard.txt', 'springboard')
 
 #resume_analyzer(r'C:\Users\xxxxx\Documents\GitHub\Python_Projects\Python_Projects\Text\resume_BU.txt')
+
+#f= open('paypal_vscode.txt', 'w')
+#f.writelines(str(text))
+#   f.close
+
