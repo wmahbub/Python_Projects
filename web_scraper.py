@@ -9,33 +9,57 @@ def time_now():
     return now
  
 def stk_price():
+    
+    try:
      
-    #html_text = requests.get('https://finance.yahoo.com/quote/GOOG?p=GOOG&.tsrc=fin-srch')
-    html_text = requests.get('https://finance.yahoo.com/quote/9988.HK?p=9988.HK&.tsrc=fin-srch')
-    soup= BeautifulSoup(html_text.text, 'lxml')
+        html_text = requests.get('https://finance.yahoo.com/quote/GOOG?p=GOOG&.tsrc=fin-srch')
+        
+        soup= BeautifulSoup(html_text.text, 'lxml')
 
-    price = soup.find_all('div', class_="D(ib) Mend(20px)")[0].find('span').text
+        price_normal = soup.find_all('div', class_="D(ib) Mend(20px)")[0].find('span').text
 
-    return price
+        return price_normal
+    
+    except:
+        return str(0)
+
+
+def stk_price_alt():
+    
+    try:
+     
+        html_text = requests.get('https://finance.yahoo.com/quote/GOOG?p=GOOG&.tsrc=fin-srch')
+        
+        soup= BeautifulSoup(html_text.text, 'lxml')
+
+        price_alt = soup.find_all('p', class_= "Fz(12px) C($tertiaryColor) My(0px) D(ib) Va(b)")[0].find('span').text
+
+        return price_alt
+    
+    except:
+        
+        return str(0)
+
+
 
 if __name__ == '__main__':
     
     while True:
         
         t = datetime.datetime.now()
-        t = t.strftime("%x %X")
+        t = t.strftime("%x  %X")
         
-        print(t , stk_price())
+        print(t ,' ' , stk_price(),' ', stk_price_alt() )
         
-        c = t + ' ' + stk_price()
+        c = t + '  ' + stk_price() + '  ' + stk_price_alt()
       
-        f = open(r'C:\Users\xxxxx\Desktop\xxxxx Project\data.txt', 'a') #dddd
+        f = open(r'C:\Users\wajda\Desktop\Chris Project\data.txt', 'a') # Data Location
         
         f.write(f'{c}\n')
         
         f.close
         
-        time.sleep(0.5)
+        time.sleep(2)
 
 
 
