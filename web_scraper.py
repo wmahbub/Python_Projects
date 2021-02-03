@@ -29,7 +29,7 @@ if __name__ == '__main__':
         
         c = t + ' ' + stk_price()
       
-        f = open(r'C:\Users\xxxxx\Desktop\xxxxx Project\data.txt', 'a')
+        f = open(r'C:\Users\xxxxx\Desktop\xxxxx Project\data.txt', 'a') #dddd
         
         f.write(f'{c}\n')
         
