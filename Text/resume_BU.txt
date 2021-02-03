@@ -1,0 +1,44 @@
+Wajdan Mahbub
+Boston, MA 02116    |    207-514-4430    |    wmahbub@bu.edu    |    linkedIn.com/in/wajmahbub    |    github.com/wmahbub
+
+EDUCATION
+
+MBA						                Expected May 2021
+Boston University Questrom School of Business; Boston, MA
+
+MS, Digital Technology									 	  Expected May 2021
+Boston University Questrom School of Business; Boston, MA
+
+BA, Economics and Politics	 						   May 2012
+Bates College; Lewiston, ME
+
+WORK EXPERIENCE 
+
+TOTAL SYSTEM SERVICES; Boston, MA 							            	             2018 to 2019
+Reporting Team – Business Operations and Reporting Analyst II (4 months) | Lead a three-person team within the Accounting and Finance Department to oversee database and DataFrame development projects. Revamped business intelligence reports to incorporate new merchant data for $4 billion payment processing company. 
+•	Developed DataFrames to generate monthly reports for major merchants and key accounts, reducing report completion time by 75 minutes (83%).
+•	Designed and implemented key performance indicators (KPIs) to measure merchant activity in Tableau, allowing Operations Team to reduce inactive Genius terminals by 32% (253 terminals).
+
+Reporting Team – Sales Operations Analyst (13 months) | Spearheaded projects to map and convert all databases in SQL Server to TSYS’s data warehouse and developed new DataFrames to automate business intelligence reports.
+•	Increased monthly revenue over $55K by auditing and identifying merchants not charged statement fees.
+•	Supervised development of merchant activity report in SQL Server, reducing payment errors by 22% ($17K).
+•	Audited monthly billing files in SQL Server and detected 9,048 merchants not billed transaction fees, increasing monthly revenue by 3% ($316K).
+
+CAYAN; Boston, MA 										             2015 to 2018
+Reporting Team – Sales Operations Analyst | Developed databases, DataFrames, and automated procedures to automate business intelligence reports and forecast models for $1 billion payment technology company. 
+•	Devised and implemented procedures to upload 535 gigabytes of merchant transaction data into SQL Server to create new databases, decreasing month-end report completion time by 75% (9 days).
+•	Built merchant revenue database (MRDB) in SQL Server to organize fees by card brand, uncovering unbilled fees for 14,135 merchants and leading to $4.3M (11%) revenue increase.
+•	Created new terminal activation report (TAR) using DataFrames to identify inactive Clover terminals, resulting in Operations Team eliminating 728 inactive terminals, a 33% reduction.
+
+GRANITE TELECOMMUNICATIONS; Quincy, MA 						            	             2013 to 2015
+
+Revenue Assurance Team – Line Verification Specialist | Built databases for telecommunication service provider using MS Access, and audited monthly statements from national carriers such as AT&T, Verizon and CenturyLink.
+•	Oversaw development of new queries to find erroneous fees on T1 and Long Distance (LD) lines using MS Access, resulting in monthly vendor fees decreasing by $165K (17%).
+•	Audited phone line inventory using MS Access and designated 15,283 phone lines as incorrectly deactivated, leading to their reactivation and boosting monthly revenue by $780K (12%).
+
+ADDITIONAL INFORMATION 
+
+Programming Languages: DAX, Python, PL/SQL and T-SQL
+Business Intelligence Tools: Proficient in Colab, Power BI, Power Pivot, SQL Server, Tableau, RStudio
+Open Source Libraries: Advanced user of Matplotlib, Numpy, Pandas, Scikit-Learn, SciPy and Seaborn
+Interests: Soccer, swimming, indoor climbing, skiing and volunteering at Habitat for Humanity
