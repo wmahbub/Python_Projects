@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import datetime
 
+
 def time_now():
     now = time.localtime()
     now = time.strftime("%H:%m:%S", now)
@@ -23,7 +24,6 @@ def stk_price():
     except:
         return str(0)
 
-
 def stk_price_alt():
     
     try:
@@ -39,7 +39,6 @@ def stk_price_alt():
     except:
         
         return str(0)
-
 
 
 if __name__ == '__main__':
