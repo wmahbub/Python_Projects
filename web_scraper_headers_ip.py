@@ -9,7 +9,7 @@ url_actual2 = 'https://finance.yahoo.com/quote/MSFT/'
 names = ['Josh', 'Aakash', 'Karthik', 'Mahesh', 'Vinay', 'David', 'Bruno', 'Jason', 'Jack', 'Chris', 'Rishi', 'Pranav', 'Julia', 'Evgeny', 'Dan']
 referers = ['https://www.google.com/', 'https://www.bing.com/', 'https://search.yahoo.com/', 'https://yandex.com/', 'https://duckduckgo.com/']
 
-user_agent = [
+user_agents = [
 
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36' ,
 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
@@ -20,7 +20,7 @@ user_agent = [
 # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'
 
 header = {
-    'User-Agent': random.choice(user_agent),
+    'User-Agent': random.choice(user_agents),
     'Accept-Language': 'en-US,en;q=0.5',
     'Referer': random.choice(referers),
     'DNT' : '1',
