@@ -26,18 +26,23 @@ header = {
     'DNT' : '1',
     'user': random.choice(names)
     }
+# https://free-proxy-list.net/
+# http://www.freeproxylists.net/?s=rs
+# http://free-proxy.cz/en/proxylist/country/all/https/ping/level1/2
+# https://www.proxynova.com/proxy-server-list
 
 proxy = {
-    'http': 'http://143.198.2.174:3128',
-    'https': 'http://143.198.2.174:8080'
+    'http': 'http://167.172.109.12:36894',
+    'https': 'http://167.172.109.12:36895'
     }
 
-r1 = requests.get(url_test_header, headers= header, proxies= proxy)
-r2 = requests.get(url_test_ip, headers=header, proxies=proxy)
-r3 = requests.get(url_actual1, headers=header, proxies=proxy)
-r4 = requests.get(url_actual2, headers=header, proxies=proxy)
+
+r1 = requests.get(url_test_header, headers= header, proxies = proxy)
+r2 = requests.get(url_test_ip, headers=header, proxies = proxy)
+r3 = requests.get(url_actual1, headers=header , proxies = proxy)
+r4 = requests.get(url_actual2, headers=header, proxies =proxy)
 
 print(r1.text)
 print(r2.text)
 
-print('Test: ', (r1.status_code, r2.status_code) , 'Actual: ', (r3.status_code, r4.status_code))
+print('Test: ', (r1.status_code, r2.status_code) , 'Actual: ', (r3.status_code, r4.status_code) )
