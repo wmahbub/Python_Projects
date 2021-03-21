@@ -12,7 +12,10 @@ header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 proxy = {'http': '207.157.220.8:3128', 'https': '207.157.220.8:8080'}
 
 
-'207.157.220.8'
+'207.157.220.8' ; 3128 , 8080
+
+
+
 
 
 r = requests.get(url, headers=header, proxies= proxy)
